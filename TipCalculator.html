@@ -1,0 +1,32 @@
+ <<!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <title> TIP CALCULATOR</title>
+     <link rel="stylesheet" href="tipCal.css">
+   </head>
+   <body>
+     <div class="calOut">
+  <b>   Tip Calculator </b>
+       <div class="calIn">
+    <font size="4.5px">   <br>&ensp;How much is your bill ?<br>
+       <input class="box" id="Total" placeholder="Bill Amount"><br>
+    &ensp;   How was the service ?<br>
+        <select class="box" id="service">
+        <option disabled selected>---Choose an option---</option>
+         <option value="0.3"> Excellent - 30% </option>
+         <option value="0.2"> Good - 20%</option>
+         <option value="0.15"> OK - 15% </option>
+         <option value="0.1"> Bad - 10%</option>
+         <option value="0.05"> Terrible - 5% </option>
+         </select><br>
+      &ensp;   People sharing the bill ? <br>
+       <input class="box" id="total_Pepole" placeholder="Number of People"><br>
+       &emsp;&emsp;&emsp;&emsp;&emsp;<button type="sumbit" onclick="Display()"> CALCULATE !</button>
+       </div>
+     </div>
+<script src="tipCal.js">
+</script>
+
+   </body>
+ </html>

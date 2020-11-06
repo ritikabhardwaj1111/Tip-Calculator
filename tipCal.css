@@ -1,0 +1,50 @@
+       body
+       {
+          background-image: linear-gradient(#330000, #8B0000);
+          font-family: 'Comic Sans MS';
+          font-size: 26px;
+       }
+       .calOut
+       {
+         background-color: #b34d4d ;
+         height: 80%;
+         width: 30%;
+         margin: 100px auto;
+         text-align: center;
+         font-family: Roboto;
+        -webkit-border-radius: 20px;
+         box-shadow: 5px 10px;
+       }
+       .calIn
+       {
+         background-color: white;
+         height: 90%;
+         width: 100%;
+         margin: 0 auto;
+         text-align: left;
+         font-family: Candara;
+
+       }
+       button{
+         background-color: #CD5C5C;
+         border-radius: 8px;
+         height: 10%;
+         width: 45%;
+         margin-left: auto;
+         margin-rigth: auto;
+       }
+       button:hover {
+       background: #4c2827;
+       border-bottom-color: #111;
+       }
+       .box{
+         height: 40px;
+         width: 60%;
+         border-color: grey;
+         font-size: 18px;
+         margin-top: 20px;
+         display: block;
+         margin-right: auto;
+         margin-left: auto;
+       }
+     
